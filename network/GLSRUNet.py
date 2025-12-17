@@ -258,7 +258,7 @@ class SKLargeKernelAgg(nn.Module):
 
 
 # -----------------------------
-# 新增：GLSR Block（全局-局部选择式路由）
+# GLSRBlock（全局-局部选择式路由）
 # -----------------------------
 class GLSRBlock(nn.Module):
     """
@@ -369,7 +369,7 @@ class GateAlign(nn.Module):
 
 
 # -----------------------------
-# 主干：GLSR-MobileUViT
+# 主干：GLSRUNET
 # -----------------------------
 class GLSRUNET(nn.Module):
     """
